@@ -12,6 +12,7 @@ namespace ToDoList
       WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
       builder.Services.AddControllersWithViews();
+//this code here provides code to ToDoListContext.cs and elsewhere
 
       builder.Services.AddDbContext<ToDoListContext>(
                         dbContextOptions => dbContextOptions
